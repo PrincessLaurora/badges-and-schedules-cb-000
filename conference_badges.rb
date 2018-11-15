@@ -24,7 +24,7 @@ def printer(attendees)
 batch_badge_creator(names).each do |name|
   puts "Hello, my name is #{name}."
 end
- assign_rooms (speakers).each_with_index do |speaker, index|
-   puts  "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
+ assign_rooms(speakers).each_with_index do |name, index|
+   puts  "Hello, #{name}! You'll be assigned to room #{index + 1}!"
  end
  end
