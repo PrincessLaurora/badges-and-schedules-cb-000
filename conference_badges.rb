@@ -1,6 +1,6 @@
 def batch_badge_creator(names)
 names.each do |name|
-badges_names = []
+new_names = []
 end
-return "Hello, my name is #{name}." << badges_names
+return "Hello, my name is #{name}." << new_names
 end
