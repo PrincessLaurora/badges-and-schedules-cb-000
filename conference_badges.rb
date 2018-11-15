@@ -20,10 +20,11 @@ return new_array
 end
 
 
-def printer (speakers)
-batch_badge_creator(names)
+def printer(attendees)
+batch_badge_creator(names).each do |name|
   puts "Hello, my name is #{name}."
- assign_rooms (speakers).each do |speaker|
+end
+ assign_rooms (speakers).each_with_index do |speaker, index|
    puts  "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
  end
  end
