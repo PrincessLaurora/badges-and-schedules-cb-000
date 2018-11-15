@@ -17,3 +17,4 @@ def assign_rooms (speakers)
   new_array << "Hello, #{speaker}! You'll be assigned to room #{index}!"
 end
 return new_array
+end
