@@ -23,7 +23,6 @@ end
 def printer (speakers)
 batch_badge_creator(names)
   puts "Hello, my name is #{name}."
-end
  assign_rooms (speakers).each do |speaker|
    puts  "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
  end
