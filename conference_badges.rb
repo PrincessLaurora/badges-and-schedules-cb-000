@@ -22,9 +22,9 @@ end
 
 def printer(attendees)
 batch_badge_creator(names).each do |name|
-  puts new_names
+  puts name
 end
- assign_rooms(speakers).each_with_index do |speaker, index|
-   puts new_array
+ assign_rooms(speakers).each do |room|
+puts room
  end
  end
