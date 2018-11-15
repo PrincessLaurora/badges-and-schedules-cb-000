@@ -1,4 +1,4 @@
-def badge_maker (name)
+def badge_maker(name)
 return "Hello, my name is #{name}."
 end
 
@@ -18,3 +18,18 @@ def assign_rooms (speakers)
 end
 return new_array
 end
+
+
+def printer (speakers)
+batch_badge_creator(names).each do |name|
+  puts "Hello, my name is #{name}."
+end
+ assign_rooms (speakers).each do |speaker, index| 
+   puts  "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
+ end
+ 
+
+
+
+
+  
